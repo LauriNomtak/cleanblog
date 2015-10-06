@@ -61,7 +61,7 @@ CREATE TABLE `posts` (
   CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`author_id`) REFERENCES `authors` (`author_id`)
 )
   ENGINE = InnoDB
-  AUTO_INCREMENT = 3
+  AUTO_INCREMENT = 4
   DEFAULT CHARSET = latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -73,7 +73,8 @@ LOCK TABLES `posts` WRITE;
 /*!40000 ALTER TABLE `posts` DISABLE KEYS */;
 INSERT INTO `posts` VALUES (1, 1, 'Elu on lahe ', 'Mida veel tahta?',
                             'Kunagi kogu oma ajaloo on mehed suutnud tõeliselt kujutleda maailma üks: ühe sfääri, maakera, millel omadusi maakera, ümmargune maa, kus kõik suunad lõpuks kohtuda, kus puudub keskus, sest iga punkt või neid pole, keskus - võrdne Maa, mis kõik mehed hõivata võrdsetena. Airman muld, kui vabad mehed teevad seda, mis on tõeliselt ringi: maakera praktikas, mitte teoorias.\n\nTeadus lõikab kaks võimalust, muidugi; Oma tooteid saab kasutada nii hea ja kurja vahel. Aga seal ei ole enam tagasiteed teadusest. Varajased hoiatused tehnoloogiliste ohtude tulla ka teaduses.\n\nMis oli kõige olulisem umbes Kuu reisi ei olnud, et mees jalg Moon, kuid mida nad määrata silma maa peal.\n\n�?ks Hiina lugu räägib mõned mehed saadeti kahjustada noor tüdruk, kes nähes tema ilu, muutub tema kaitsjad, mitte tema rikkujaid. See, kuidas ma tundsin nähes Maa esmakordselt. Ma ei saa aidata, kuid armastan ja kalliks teda.\n\nNeile, kes on näinud Maa kosmosest, ja sadu ja võib-olla veel tuhandeid, kes on kogemus kindlasti muudab oma vaatenurgast. Asju, mida me jagame meie maailmas on palju väärtuslikum kui need, mis meid lahutavad.',
-                            '2014-09-24 11:28:08');
+                            '2014-09-24 11:28:08'), (2, 2, 'Life suxx', 'Blaa', 'Asdqwedsadasd', '2015-10-06 20:07:50'),
+  (3, 1, 'Mhmm', 'jama', 'Asdqwedsadasfa', '2015-10-06 20:08:24');
 /*!40000 ALTER TABLE `posts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE = @OLD_TIME_ZONE */;
@@ -86,4 +87,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION = @OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES = @OLD_SQL_NOTES */;
 
--- Dump completed on 2015-10-06 12:06:38
+-- Dump completed on 2015-10-07  0:49:57
